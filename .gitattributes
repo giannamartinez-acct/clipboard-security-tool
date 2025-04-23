@@ -1,0 +1,16 @@
+# Normalize line endings
+* text=auto
+
+# Treat bash/sh scripts as text
+*.sh text eol=lf
+
+# Set UTF-8 encoding for HTML/CSS/JS
+*.html text working-tree-encoding=UTF-8
+*.css text working-tree-encoding=UTF-8
+*.js text working-tree-encoding=UTF-8
+
+# Don’t treat images as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
